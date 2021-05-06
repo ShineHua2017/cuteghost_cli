@@ -1,0 +1,52 @@
+{
+    "name": "cuteghost_cli",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "dev": "webpack-dev-server",
+        "build": "webpack --mode production",
+        "grafana-build": "webpack --mode production --config grafana.config.js && node ./src/libs/compile.js --base64",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Shine.Hua",
+    "license": "MIT",
+    "dependencies": {
+        "alpinejs": "^2.8.2",
+        "axios": "^0.21.1",
+        "charts.css": "^0.9.0",
+        "file-saver": "^2.0.5",
+        "luxon": "^1.26.0",
+        "numeral": "^2.0.6",
+        "picnic": "^6.5.5",
+        "sweetalert2": "^10.16.6",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "autoprefixer": "^9.8.5",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-stage-0": "^6.24.1",
+        "clean-webpack-plugin": "^4.0.0-alpha.0",
+        "css-loader": "^2.1.1",
+        "file-loader": "^3.0.1",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "image-webpack-loader": "^7.0.1",
+        "js-base64": "^3.6.0",
+        "less": "^3.9.0",
+        "less-loader": "^5.0.0",
+        "mini-css-extract-plugin": "^1.5.0",
+        "node-sass": "^4.14.1",
+        "optimize-css-assets-webpack-plugin": "^5.0.4",
+        "postcss-loader": "^4.0.0",
+        "sass-loader": "^7.3.1",
+        "style-loader": "^0.23.1",
+        "uglifyjs-webpack-plugin": "^2.2.0",
+        "url-loader": "^1.1.2",
+        "webpack": "^4.46.0",
+        "webpack-cli": "^3.3.2",
+        "webpack-dev-server": "^3.3.1"
+    }
+}

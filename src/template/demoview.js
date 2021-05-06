@@ -1,0 +1,1 @@
+export const formdemo = `<div><h1> Cute Ghost 👻 </h1></div><div><img src="./img/welcome.svg" alt="Welcome"></div>`;
